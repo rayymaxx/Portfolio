@@ -1,16 +1,10 @@
-#About {
-  height: 700px;
+#Skills {
+  height: 1200px;
 }
 
-.about-text-1 {
-  margin-top: 60px;
-  margin-left: 50px;
-  font-weight: 700;
-  font-size: 3.5rem;
-  font-family: 'Unbounded', sans-serif;
-}
-
-.Card {
+.card-1,
+.card-2,
+.card-3 {
   background-color: #ebe99d;
   margin-top: 60px;
   margin-left: 90px;
@@ -23,11 +17,15 @@
   cursor: pointer;
 }
 
-.Card:hover {
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
   transform: translateY(-5px)
 }
 
-.Card p {
+.card-1 p,
+.card-2 p,
+.card-3 p {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 25px;
